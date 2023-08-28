@@ -11,11 +11,12 @@ def lancamento():
 
 def relacao(d1, d2):
     if d1 > d2:
-        return f'{d1} é maior que {d2} '
+        return f'{d1} é maior que {d2} ...jogador 1 venceu...'
+
     elif  d1 == d2:
         return f'VALORES IGUAIS!!'
     else:
-        return f'{d2} é maior que {d1}'
+        return f'{d2} é maior que {d1} ...jogador 2 venceu...'
 
 
 print('##############    JOGO DE DADOS ###################')
@@ -30,6 +31,6 @@ for i in range (1, n + 1) :
     print(f'{i} ° lançamento ==>> ({d1}, {d2}) =====>>>>  {rel}')
 
 
-
+input('Digite enter para sair')
 
 
